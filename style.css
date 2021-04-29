@@ -1,0 +1,136 @@
+body {
+    background-color: black !important;
+
+    width: 100% !important;
+}
+/*Sign up button*/
+.btn-success
+{
+    align-items: center;
+    width: 100%;
+}
+
+.btn-default {
+    color: blue !important;
+}
+
+/*Header 1*/
+h1.l1{
+    color:white;
+    font-size: 65px;
+}
+
+/*Form styling*/
+.f1{
+    color: black;
+    background-color: white;
+    padding: 22px 24px;
+    width: 82%;
+    font-size: 14px;
+    border-radius: 0.25rem;
+}
+
+/*Para styling*/
+p{
+    color: grey;
+    font-size: 17px;
+}
+
+/*Specific words of Para styling*/
+.s1{
+    color: white;
+}
+/*Specific words of Para2 styling*/
+.s2{
+    color: blue;
+}
+/*Para 2 styling */
+p.s5{
+    text-align: center;
+    font-size: 12px;
+}
+p.s6{
+    font-size: 13px;
+}
+
+/*For small devices*/
+@media screen and (max-width: 600px) {
+    form.f1{
+    visibility:collapse;
+    position: absolute;
+    }
+    .btn-success{
+        visibility: visible;
+        margin-top: -311px;
+        margin-left: 79px;
+        justify-content: center;
+    }
+    h1.l1{
+        font-size: 60px;
+    }
+    .form1{
+        text-align: center;
+        border: none;
+    }
+
+}
+/*styling search in navbar */ 
+.form1{
+    border-radius: 0.25rem;
+    color: gray;
+    font-weight: 500;
+    background: black;
+    border: 0px;
+    margin-top: 8px;
+    margin-left: 155px;
+}
+
+/*Medium devices*/
+@media screen and (max-width: 960px){
+    form.f1{
+        margin: 0 auto;
+        width: 60%;
+    }
+    p{
+        text-align: center;
+    }
+    h1.l1{
+        text-align: center;
+        font-size: 56px;
+    }
+    .fa-github{
+        padding-top: 20px;
+    }
+}
+
+/*Navbar Styling*/
+nav .navbar-nav li a{
+    color: white !important;
+    text-align: center;
+}
+.navbar-header{
+    padding: 20px;
+}
+/*Footer style*/
+#footer { 
+    background: white;
+    width: 100%; 
+    padding: 50px;
+}
+.container{
+       padding: auto;
+       margin: auto;
+       padding-top: 60px;
+
+}
+.container-fluid{
+    font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    width: auto;
+
+}
+.fa-github{
+    margin-top: -12px;
+    margin-bottom: -8px;
+    font-size:36px;
+    color: white;
+}

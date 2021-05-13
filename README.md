@@ -1,4 +1,4 @@
-# **Responsive Github Login Page**
+# **Responsive Github Home Page**
 # Link:  https://dshah45.github.io/Task-1/
 ## Task 1
 <img src = "images/1.jpeg">

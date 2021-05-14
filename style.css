@@ -56,12 +56,12 @@ p.s6{
 /*For small devices*/
 @media screen and (max-width: 600px) {
     form.f1{
-    visibility:collapse;
-    position: absolute;
+        visibility:collapse;
+        position: absolute;
     }
     .btn-success{
         visibility: visible;
-        margin-top: -311px;
+        margin-top: -276px;
         margin-left: 79px;
         justify-content: center;
     }
@@ -111,6 +111,9 @@ nav .navbar-nav li a{
 .navbar-header{
     padding: 20px;
 }
+
+
+  
 /*Footer style*/
 #footer { 
     background: white;
@@ -134,3 +137,5 @@ nav .navbar-nav li a{
     font-size:36px;
     color: white;
 }
+
+
